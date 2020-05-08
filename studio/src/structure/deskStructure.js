@@ -68,10 +68,10 @@ export default () =>
         .schemaType('author')
         .child(S.documentTypeList('author').title('Authors')),
       S.listItem()
-        .title('Categories')
+        .title('Categorias')
         .icon(MdLocalOffer)
         .schemaType('category')
-        .child(S.documentTypeList('category').title('Categories')),
+        .child(S.documentTypeList('category').title('Categorias')),
       // `S.documentTypeListItems()` returns an array of all the document types
       // defined in schema.js. We filter out those that we have
       // defined the structure above.
