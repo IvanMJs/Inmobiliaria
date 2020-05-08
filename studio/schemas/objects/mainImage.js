@@ -1,7 +1,7 @@
 export default {
   name: 'mainImage',
   type: 'image',
-  title: 'Image',
+  title: 'Imagen',
   options: {
     hotspot: true
   },
