@@ -21,12 +21,12 @@ export default {
     {
       name: 'image',
       type: 'mainImage',
-      title: 'Image'
+      title: 'Imagen'
     },
     {
       name: 'bio',
       type: 'bioPortableText',
-      title: 'Biography'
+      title: 'Biografia'
     }
   ],
   preview: {

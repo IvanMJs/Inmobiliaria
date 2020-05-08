@@ -9,7 +9,7 @@ export default {
     {
       name: 'caption',
       type: 'string',
-      title: 'Caption',
+      title: 'No tocar',
       options: {
         isHighlighted: true
       }
@@ -17,12 +17,12 @@ export default {
     {
       name: 'alt',
       type: 'string',
-      title: 'Alternative text',
+      title: 'No tocar',
       description: 'Important for SEO and accessiblity.',
-      validation: Rule => Rule.error('You have to fill out the alternative text.').required(),
-      options: {
-        isHighlighted: true
-      }
+      //validation: Rule => Rule.error('You have to fill out the alternative text.').required(),
+      //options: {
+      //  isHighlighted: true
+      //}
     }
   ],
   preview: {
