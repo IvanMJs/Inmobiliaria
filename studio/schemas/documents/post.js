@@ -3,19 +3,19 @@ import {format} from 'date-fns'
 export default {
   name: 'post',
   type: 'document',
-  title: 'Blog Post',
+  title: 'Publicaciones',
   fields: [
     {
       name: 'title',
       type: 'string',
-      title: 'Title',
-      description: 'Titles should be catchy, descriptive, and not too long'
+      title: 'Titulo',
+      description: 'Describe algo corto, para presentar en el inicio.'
     },
     {
       name: 'slug',
       type: 'slug',
-      title: 'Slug',
-      description: 'Some frontends will require a slug to be set to be able to show the post',
+      title: 'Url',
+      description: 'Esto genera la url de la publicacion www.asda.com/urltodojunto',
       options: {
         source: 'title',
         maxLength: 96
@@ -24,24 +24,24 @@ export default {
     {
       name: 'publishedAt',
       type: 'datetime',
-      title: 'Published at',
-      description: 'This can be used to schedule post for publishing'
+      title: 'Fecha de publicacion',
+      description: 'Esta es la fecha en que vas a hacer tu publicación'
     },
     {
       name: 'mainImage',
       type: 'mainImage',
-      title: 'Main image'
+      title: 'Imagen'
     },
     {
       name: 'excerpt',
       type: 'excerptPortableText',
-      title: 'Excerpt',
+      title: 'Extracto',
       description:
-        'This ends up on summary pages, on Google, when people share your post in social media.'
+        'Es un resumen, algo antes de la descripción.'
     },
     {
       name: 'authors',
-      title: 'Authors',
+      title: 'Agente inmobiliario',
       type: 'array',
       of: [
         {
@@ -52,7 +52,7 @@ export default {
     {
       name: 'categories',
       type: 'array',
-      title: 'Categories',
+      title: 'Categoria',
       of: [
         {
           type: 'reference',
@@ -65,7 +65,7 @@ export default {
     {
       name: 'body',
       type: 'bodyPortableText',
-      title: 'Body'
+      title: 'Descripcion del inmueble'
     }
   ],
   orderings: [
