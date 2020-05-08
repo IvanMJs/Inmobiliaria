@@ -6,13 +6,13 @@ export default {
     {
       name: 'name',
       type: 'string',
-      title: 'Name'
+      title: 'Nombre'
     },
     {
       name: 'slug',
       type: 'slug',
-      title: 'Slug',
-      description: 'Some frontends will require a slug to be set to be able to show the person',
+      title: 'Url',
+      description: 'no tocar esto',
       options: {
         source: 'name',
         maxLength: 96
