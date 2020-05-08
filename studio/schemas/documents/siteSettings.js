@@ -7,19 +7,19 @@ export default {
     {
       name: 'title',
       type: 'string',
-      title: 'Title'
+      title: 'Titulo'
     },
     {
       name: 'description',
       type: 'text',
-      title: 'Description',
-      description: 'Describe your blog for search engines and social media.'
+      title: 'Descripción',
+      description: 'Describe algo de vos como agente inmobiliario.'
     },
     {
       name: 'keywords',
       type: 'array',
       title: 'Keywords',
-      description: 'Add keywords that describes your blog.',
+      description: 'No usar.',
       of: [{type: 'string'}],
       options: {
         layout: 'tags'
@@ -29,7 +29,7 @@ export default {
       name: 'author',
       type: 'reference',
       description: 'Publish an author and set a reference to them here.',
-      title: 'Author',
+      title: 'Autor',
       to: [{type: 'author'}]
     }
   ]
