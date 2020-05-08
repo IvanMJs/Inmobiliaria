@@ -41,7 +41,8 @@ function BlogPost (props) {
             )}
             {authors && <AuthorList items={authors} title='Agente inmobiliario' />}
             <div><a>Telefono: <a>+54 9 3492 57-3615</a></a></div>
-            <a href="https://api.whatsapp.com/send?phone=+54 9 3492 57-3615">Whatsapp</a>
+            <botton color="primary"><a href="https://api.whatsapp.com/send?phone=+54 9 3492 57-3615">Whatsapp</a></botton>
+            <h4>hugo.d.meyer@gmail.com</h4>
             {categories && (
               <div className={styles.categories}>
                 <h3 className={styles.categoriesHeadline}>Categorias</h3>

@@ -20,7 +20,7 @@ function BlogPostPreviewGrid (props) {
         <div className={styles.browseMoreNav}>
           <Link to={props.browseMoreHref}>Ver mas</Link>
           <h2>Contactame</h2>
-          <botton><a href="https://api.whatsapp.com/send?phone=+54 9 3492 57-3615">Whatsapp</a></botton>
+          <botton color="primary"><a href="https://api.whatsapp.com/send?phone=+54 9 3492 57-3615">Whatsapp</a></botton>
           <h4>hugo.d.meyer@gmail.com</h4>
         </div>
         
