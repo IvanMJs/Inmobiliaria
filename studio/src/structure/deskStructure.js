@@ -48,7 +48,7 @@ export default () =>
     .title('Content')
     .items([
       S.listItem()
-        .title('Settings')
+        .title('Configuraciones')
         .icon(MdSettings)
         .child(
           S.editor()
@@ -58,15 +58,15 @@ export default () =>
         ),
       S.divider(),
       S.listItem()
-        .title('Blog posts')
+        .title('Publicaciones')
         .icon(MdDescription)
         .schemaType('post')
-        .child(S.documentTypeList('post').title('Blog posts')),
+        .child(S.documentTypeList('post').title('Publicaciones')),
       S.listItem()
-        .title('Authors')
+        .title('Autor')
         .icon(MdPerson)
         .schemaType('author')
-        .child(S.documentTypeList('author').title('Authors')),
+        .child(S.documentTypeList('author').title('Autor')),
       S.listItem()
         .title('Categorias')
         .icon(MdLocalOffer)
